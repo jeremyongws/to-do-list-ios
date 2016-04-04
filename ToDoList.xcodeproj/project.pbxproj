@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		3FA842DB1CB2065E00C36FAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA842DA1CB2065E00C36FAB /* main.m */; };
 		3FA842DE1CB2065E00C36FAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA842DD1CB2065E00C36FAB /* AppDelegate.m */; };
-		3FA842E11CB2065E00C36FAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA842E01CB2065E00C36FAB /* ViewController.m */; };
+		3FA842E11CB2065E00C36FAB /* ToDoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA842E01CB2065E00C36FAB /* ToDoViewController.m */; };
 		3FA842E41CB2065E00C36FAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA842E21CB2065E00C36FAB /* Main.storyboard */; };
 		3FA842E61CB2065E00C36FAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA842E51CB2065E00C36FAB /* Assets.xcassets */; };
 		3FA842E91CB2065E00C36FAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA842E71CB2065E00C36FAB /* LaunchScreen.storyboard */; };
@@ -20,8 +20,8 @@
 		3FA842DA1CB2065E00C36FAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3FA842DC1CB2065E00C36FAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3FA842DD1CB2065E00C36FAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3FA842DF1CB2065E00C36FAB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3FA842E01CB2065E00C36FAB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3FA842DF1CB2065E00C36FAB /* ToDoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDoViewController.h; sourceTree = "<group>"; };
+		3FA842E01CB2065E00C36FAB /* ToDoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoViewController.m; sourceTree = "<group>"; };
 		3FA842E31CB2065E00C36FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FA842E51CB2065E00C36FAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FA842E81CB2065E00C36FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,8 +60,8 @@
 			children = (
 				3FA842DC1CB2065E00C36FAB /* AppDelegate.h */,
 				3FA842DD1CB2065E00C36FAB /* AppDelegate.m */,
-				3FA842DF1CB2065E00C36FAB /* ViewController.h */,
-				3FA842E01CB2065E00C36FAB /* ViewController.m */,
+				3FA842DF1CB2065E00C36FAB /* ToDoViewController.h */,
+				3FA842E01CB2065E00C36FAB /* ToDoViewController.m */,
 				3FA842E21CB2065E00C36FAB /* Main.storyboard */,
 				3FA842E51CB2065E00C36FAB /* Assets.xcassets */,
 				3FA842E71CB2065E00C36FAB /* LaunchScreen.storyboard */,
@@ -149,7 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FA842E11CB2065E00C36FAB /* ViewController.m in Sources */,
+				3FA842E11CB2065E00C36FAB /* ToDoViewController.m in Sources */,
 				3FA842DE1CB2065E00C36FAB /* AppDelegate.m in Sources */,
 				3FA842DB1CB2065E00C36FAB /* main.m in Sources */,
 			);
